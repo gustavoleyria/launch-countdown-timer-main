@@ -1,0 +1,173 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Red Hat Text", "Sans Serif";
+    background-image: url('./images/bg-stars.svg');
+    background-color: hsl(235, 16%, 14%);
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 7%;
+}
+.time{
+    margin-top: 6%;
+}
+.number{
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr  1fr;
+}
+.text{
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr  1fr;
+}
+.sup{
+    width: 110px;
+    height: 50px;
+    background-color: hsl(236, 21%, 26%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.down{
+    width: 110px;
+    height: 50px;
+    background-color: hsl(236, 21%, 26%);
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid hsl(234, 17%, 12%);
+}
+.numbers{
+    font-size: 60px;
+    color: hsl(345, 95%, 68%);
+    font-weight: 900;
+    text-align: left;
+    margin-top: -90px;
+    margin-left: 18px;
+}
+.sup1{
+    margin-left: 130%;
+}
+.sup2{
+    margin-left: 70%;
+}
+.sup3{
+    margin-left: 10%;
+}
+.sup4{
+    margin-left: -50%;
+}
+.textnumber{
+    color: hsl(237, 18%, 59%);
+    font-weight: 900;
+    margin-top: 10%;
+}
+.day{
+    margin-left: 142%;
+}
+.hour{
+    margin-left: 81%;
+}
+.min{
+    margin-left: 19%;
+}
+.second{
+    margin-left: -42%;
+}
+
+
+
+.hills{
+    background-image: url('./images/pattern-hills.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    margin-top: 10%;
+}
+.hills img{
+    margin-right: 2%;
+    margin-top: 6%;
+}
+.imgface{
+    margin-left: 47%;
+}
+
+.hills img:hover{
+    cursor: pointer;
+    background-color: hsl(345, 95%, 68%);
+}
+
+
+@media screen and (min-width: 376px){
+    .br{
+        display:none
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    h1{
+        margin-left: -6%;
+        margin-top: 30%;
+    }
+    .sup1{
+        margin-left: 25%;
+    }
+    .sup2{
+        margin-left: 15%;
+    }
+    .sup3{
+        margin-left: 10%;
+    }
+    .sup4{
+        margin-left: -10%;
+    }
+    .sup{
+        width: 60px;
+        height: 50px;
+    }
+    .down{
+        width: 60px;
+        height: 50px;
+    }
+    .numbers{
+        font-size: 40px;
+        margin-top: -77px;
+        margin-left: 8px;
+    }
+    .textnumber{
+        margin-top: 25%;
+        font-size: 15px;
+    }
+    .day{
+        margin-left: 40%;
+    }
+    .hour{
+        margin-left: 25%;
+    }
+    .min{
+        margin-left: 15%;
+    }
+    .second{
+        margin-left: -10%;
+    }
+
+
+    
+.hills{
+    height: 150px;
+    width: 375px;
+    margin-top: 30%;
+}
+.hills img{
+    margin-right: 2%;
+    margin-top: 6%;
+}
+.imgface{
+    margin-left: 35%;
+}
+}
