@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/gustavoleyria/launch-countdown-timer-main.git
-- Live Site URL: https://gustavoleyria.github.io/calculator-app-main/
+- Live Site URL: https://gustavoleyria.github.io/launch-countdown-timer-main/
 
 ## My process
 
